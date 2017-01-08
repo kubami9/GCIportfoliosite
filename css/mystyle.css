@@ -1,1 +1,77 @@
-
+body {
+    background-image: url(../img/halftone/halftone/halftone.png);
+}
+.navbar {
+    background-color: rgba(255, 255, 255, 0.22);
+    font-family: 'Archivo Black', sans-serif;    
+}
+.nav > li > a {
+    color: #222;
+    border-bottom: solid;
+    border-width: thin;
+}
+.nav > li > a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.nav > li > a:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar-brand {
+    color: black;
+}
+.navbar-brand:hover {
+    color: #444;
+}
+.navbar-brand:focus {
+    color: black;
+}
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.top {
+    background-image: url(../img/obraz1.jpg);
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;     
+}
+.jumbotron {
+    background: transparent;
+    color: #eee;   
+    text-align: center;
+    margin-top: 202px; 
+}
+.jumbotron > h1 {
+    font-size: 180px;
+}
+.btn {
+    background-color: #333;
+    border-color: #4b4b4b;
+}
+.btn:hover {
+    background-color: #eee;
+    color: #333;
+    border-color: #4b4b4b;
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+}
+.bigger {
+    font-size: 25px;
+}
+blockquote {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.foot {
+    background-color: #333;
+    color: #eee;
+    text-align: center;
+}
