@@ -42,20 +42,74 @@ hr {
     -o-background-size: cover;
     background-position: center;     
 }
+.about-top {
+    background-image: url(../img/about-bg.jpg);
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;    
+}
+.interests-top {
+    background-image: url(../img/interests-bg.jpg);
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center; 
+}
+.projects-top {
+    background-image: url(../img/projects-bg.jpg);
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+}
 .jumbotron {
     background: transparent;
     color: #eee;   
     text-align: center;
     margin-top: 202px; 
 }
+.about-jumbotron {
+    background: transparent;
+    color: #eee;   
+    text-align: center;
+    margin-top: 300px;     
+}
+.projects-jumbotron {
+    background: transparent;
+    color: #eee;   
+    text-align: center;
+    margin-top: 250px;
+}
 .jumbotron > h1 {
     font-size: 180px;
 }
-.btn {
+.about-jumbotron > h1 {
+    font-size: 180px;
+}
+.projects-jumbotron > h1 {
+    font-size: 180px;
+}
+.dark-jumbotron {
+    background-color: #333;
+}
+.btn-primary {
     background-color: #333;
     border-color: #4b4b4b;
 }
-.btn:hover {
+.btn-primary:hover {
     background-color: #eee;
     color: #333;
     border-color: #4b4b4b;
@@ -68,6 +122,9 @@ h3 {
     font-size: 25px;
 }
 blockquote {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.font-changed {
     font-family: 'Gloria Hallelujah', cursive;
 }
 .foot {
