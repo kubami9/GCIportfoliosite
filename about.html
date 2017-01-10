@@ -1,3 +1,4 @@
+<!-- Kuba Michalski 2017 | All rights reserved-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,7 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- My styles -->
-    <link href="css/mystyle.css" rel="stylesheet">
+    <link href="css/mystyle.min.css" rel="stylesheet">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Gloria+Hallelujah" rel="stylesheet">
   </head>
@@ -16,20 +17,31 @@
     
 <body>
 
-       <div class="about-top">
-        <nav class="navbar navbar-fixed-top">
-          <div class="container-fluid">
-            <div class="navbar-header">
-              <a class="navbar-brand" href="index.html">HOME</a>
-            </div>
-            <ul class="nav navbar-nav">
-              <li><a href="#">About</a></li>
-              <li><a href="interests.html">Interests</a></li>
-              <li><a href="projects.html">Projects</a></li>
-            </ul>
-          </div>
-        </nav>
-         
+      
+    <nav class="navbar navbar-fixed-top navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">HOME</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About </a></li>
+            <li><a href="interests.html">Interests </a></li>
+            <li><a href="projects.html">Projects </a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>  
+      
+    <div class="about-top">
     
         <div class="container">
             <div class="about-jumbotron">
@@ -45,7 +57,7 @@
         <div class="content">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
-                    <img src="..." alt="Here should be my photo" title="It's me!" class="img-thumbnail">
+                    <img src="img/rsz_myphoto.jpg" alt="Here should be my photo" title="It's me!" class="img-thumbnail">
                 </div>
                 <div class="col-md-6 col-lg-6">
                     <p class="bigger">My name is Kuba Michalski. I'm 16 and I live in Poland. I'm in technical school in Warsaw. In future, I'd like to be front-end developer. I love creating websites! Of course I have many other hobbies but more about them in <a class="btn font-changed btn-info" href="interests.html">Interests</a>. 
@@ -55,12 +67,9 @@
             </div> 
         </div>
        </div>
-       
        <hr>
-       
        <br>
-    
      <footer class="foot">
-        <p>Kuba Michalski &copy 2017</p>
+        <p>Kuba Michalski <i>GCIportfoliosite</i>  2017 &copy All rights reserved</p>
      </footer>
         
